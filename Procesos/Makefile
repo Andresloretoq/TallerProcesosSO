@@ -1,4 +1,4 @@
-# Compila mod_loreto (main) + modulo (librería simple)
+# Compila mod_loreto
 CC=gcc
 CFLAGS=-Wall -Wextra -O2
 LDFLAGS=
