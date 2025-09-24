@@ -4,13 +4,13 @@
 
 
 
-/* Implementación del módulo: SIN main */
+/* Implementacion del modulo */
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
 #include "modulo.h"
 
-/* Estado interno del módulo (no expuesto) */
+
 static struct timeval t_ini, t_fin;
 
 void InicioMuestra(void) {
@@ -35,7 +35,7 @@ void iniMatriz(int n, double *m1, double *m2) {
     }
 }
 
-/* Imprime una matriz n x n (útil para n pequeño) */
+/* Imprime una matriz n x n */
 void imprMatrices(int n, const double *matriz) {
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
